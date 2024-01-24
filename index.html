@@ -17,14 +17,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- font awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  .font-manrope {
+      font-family: "Manrope", sans-serif;
+  }
+</style>
 <style>
     .font-manrope{
         font-family: 'Manrope', sans-serif;
     }
 </style>
   </head>
-  <body class="font-manrope overflow-x-hidden max-w-[1440px] ">
-    <header >
+  <body class="font-manrope overflow-x-hidden mx-auto max-w-[1440px] ">
+    <header class=" ">
         <!-- navbar start section -->
         <div class="container w-[90%] mx-auto  mt-8   ">
             <div class="navbar bg-base-100">
@@ -65,52 +71,67 @@
         <!-- navbar end -->
 
 
-        <!-- banner start section -->
-        <div class="container my-24 w-[87%]   mx-auto mt-8 ">
-            <div class="carousel lg:h-[550px] h-52 ">
-                <!-- slide1 -->
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="Images/1.png" class="w-full " />
-              <div class="absolute flex transform -translate-y-1/2 gap-5 left-28 top-44 lg:left-5 lg:right-5 lg:top-[500px]">
-                <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
-                <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+        <section class="container my-6 w-[87%]  mx-auto">
+          <!-- Banner  -->
+        <div class="relative">
+          <div class="carousel w-full mb-4 lg:mb-0 rounded-xl">
+              <div id="slide1" class="carousel-item w-full relative">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div
+                      class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2 left-10 right-5 bottom-0 lg:bottom-4">
+                      <a href="#slide4"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❮</a>
+                      <a href="#slide2"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❯</a>
+                  </div>
               </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="Images/1.png" class="w-full " />
-              <div class="absolute flex transform -translate-y-1/2 gap-5 left-5 right-5 top-[500px]">
-                <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
-                <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+              <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div
+                      class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2 left-10 right-5 bottom-0 lg:bottom-4">
+                      <a href="#slide1"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❮</a>
+                      <a href="#slide3"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❯</a>
+                  </div>
               </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="Images/1.png" class="w-full " />
-              <div class="absolute flex transform -translate-y-1/2 gap-5 left-5 right-5 top-[500px]">
-                <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
-                <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+              <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div
+                      class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2 left-10 right-5 bottom-0 lg:bottom-4">
+                      <a href="#slide2"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❮</a>
+                      <a href="#slide4"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❯</a>
+                  </div>
               </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="Images/1.png" class="w-full " />
-              <div class="absolute flex transform -translate-y-1/2 gap-5 left-5 right-5 top-[500px]">
-                <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
-                <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+              <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div
+                      class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2 left-10 right-5 bottom-0 lg:bottom-4">
+                      <a href="#slide3"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❮</a>
+                      <a href="#slide1"
+                          class="btn btn-neutral bg-black min-h-8 h-8 w-8 lg:min-h-12 lg:h-12 lg:w-12 rounded-full lg:btn-circle">❯</a>
+                  </div>
               </div>
-            </div> 
-            
-        <!--extra div -->
-        <div class="max-w-[1440px] w-[20rem] h-[9rem] lg:w-[33rem] lg:h-[10rem] bg-[#131318] lg:absolute top-100 lg:right-40 lg:bottom-60  rounded-lg">
-            <div  class="flex flex-col ">
-                <h3 class="text-base font-extrabold text-white pl-6 pt-5">Meet all the heroes from the field</h3>
-                <p class="text-white pl-6 pt-4"> From seasoned veterans to rising stars, our featured heroes share their remarkable stories, achievements, and passion for the sport.   </p>
-            </div>
-        </div>
-        </div>
+          </div>
+          <div class="lg:p-8 p-4 bg-[#131318] rounded-2xl lg:w-1/2 lg:absolute lg:right-8 lg:bottom-8">
+              <h3 class="text-white text-lg md:text-2xl font-extrabold mb-2 lg:mb-4">Meet all the heroes from the field</h3>
+              <p class="text-sm lg:text-base text-[#ffffff99] font-medium">Forget capes and costumes, the real heroes
+                  wear skates and pads.
+                  Dive into the stories of grit, passion, and determination that define hockey's finest.
+              </p>
+          </div>
+      </div>
+        </section>
+   
+
         
-       </div>
-        
+       
+
     </header>
-    <main>
+    <main class="">
         <!-- professional hockey -->
         <section class="container my-24 w-[87%]  mx-auto  flex flex-col items-center justify-center space-y-3 mt-6 border border-dashed border-l-0 border-r-0 ">
             <h1 class="font-extrabold text-4xl py-4 text-center">Professional Hockeys Club</h1>
@@ -119,28 +140,28 @@
         </section>
 
         <!-- radial progress -->
-        <section class="container my-24 w-[87%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20 mt-6">
+        <section class="container my-24 w-[87%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-20 mt-6 items-center ">
             <!-- card1 -->
            <div class=" flex flex-col items-center justify-center space-y-3">
-            <div class="radial-progress text-red-700 " style="--value:70;" role="progressbar"><span class="font-extrabold text-black">87%</span></div>
+            <div class="radial-progress  text-red-700 " style="--value:87;" role="progressbar"><span class="font-extrabold text-black"><span>87%</span></span></div>
             <h1 class="font-extrabold">Prayer Facility</h1>
             <p class=" p-4">Our Prayer Facility is designed to be a serene haven .</p>
            </div>
             <!-- card2 -->
            <div class=" flex flex-col items-center justify-center space-y-3">
-            <div class="radial-progress text-green-600 " style="--value:70;" role="progressbar"><span class="font-extrabold text-black">95%</span></div>
+            <div class="radial-progress text-green-600 " style="--value:95;" role="progressbar"><span class="font-extrabold text-black">95%</span></div>
             <h1 class="font-extrabold">Experienced Coach</h1>
             <p class=" p-4"> my coaching philosophy revolves around fostering teamwork</p>
            </div>
             <!-- card3 -->
            <div class=" flex flex-col items-center justify-center space-y-3">
-            <div class="radial-progress text-yellow-500 " style="--value:70;" role="progressbar"><span class="font-extrabold text-black">90%</span></div>
+            <div class="radial-progress text-yellow-500 " style="--value:90;" role="progressbar"><span class="font-extrabold text-black">90%</span></div>
             <h1 class="font-extrabold">Senior Player</h1>
             <p class=" p-4">Their legacy extends beyond the rink, influencing the next generation of athletes.</p>
            </div>
             <!-- card4 -->
            <div class=" flex flex-col items-center justify-center space-y-3">
-            <div class="radial-progress text-blue-700 " style="--value:70;" role="progressbar"><span class="font-extrabold text-black">80%</span></div>
+            <div class="radial-progress text-blue-700 " style="--value:80;" role="progressbar"><span class="font-extrabold text-black">80%</span></div>
             <h1 class="font-extrabold">Training Ground</h1>
             <p class=" p-4">Our meticulously crafted training programs cater to players of all levels.</p>
            </div>
@@ -160,7 +181,7 @@
                 <!-- image one -->
                 <div class="bg-[url('./Images/2.png')] bg-cover bg-no-repeat rounded-lg  w-[97.6%] h-80 flex flex-col justify-center space-y-9">
                     <h1 class="text-3xl font-extrabold text-white mt-4 pl-7">Junior Program</h1>
-                    <p class="text-white pl-7 w-[495px] ">Tailored for participants at various skill levels, our experienced coaches create a supportive and dynamic environment.</p>
+                    <p class="text-white pl-7 lg:w-[495px] ">Tailored for participants at various skill levels, our experienced coaches create a supportive and dynamic environment.</p>
                     <div class="pl-7">
                         <a class="btn bg-[#FF4240] px-6 py-2 text-white outline-none border border-none">Register Now!</a>
                     </div>
@@ -168,7 +189,7 @@
                 <!-- image two -->
                 <div class="bg-[url('./Images/3.png')] bg-cover bg-no-repeat rounded-lg w-[97.6%] h-80 flex flex-col justify-center space-y-9">
                     <h1 class="text-3xl font-extrabold text-white mt-4 pl-7">Junior Program</h1>
-                    <p class="text-white pl-7 w-[495px] ">dynamic environment where juniors can thrive. Join us on a journey of growth, sportsmanship, and unforgettable moments on the ice.</p>
+                    <p class="text-white pl-7 lg:w-[495px] ">dynamic environment where juniors can thrive. Join us on a journey of growth, sportsmanship, and unforgettable moments on the ice.</p>
                     <div class="pl-7">
                         <a class="btn bg-[#FF4240] px-6 py-2 text-white outline-none border border-none">Register Now!</a>
                     </div>
@@ -180,7 +201,7 @@
             <div>
                 <div class="bg-[url('./Images/4.png')] bg-cover bg-no-repeat rounded-lg  w-[98.6%] h-80 flex flex-col justify-center space-y-9">
                     <h1 class="text-3xl font-extrabold text-white mt-4 pl-7">Junior Program</h1>
-                    <p class="text-white pl-7 w-[495px] ">you're new to the sport or aiming to elevate your game, our Junior Program is your gateway to a rewarding hockey experience.</p>
+                    <p class="text-white pl-7 lg:w-[495px] ">you're new to the sport or aiming to elevate your game, our Junior Program is your gateway to a rewarding hockey experience.</p>
                     <div class="pl-7">
                         <a class="btn bg-[#FF4240] px-6 py-2 text-white outline-none border border-none">Register Now!</a>
                     </div>
@@ -198,15 +219,15 @@
 
             
         
-
-        <section class="container my-24 w-[87%] mx-auto">
+        <!-- products card -->
+        <section class="container my-24 lg:w-[87%]  mx-auto">
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 my-11  lg:grid-rows-3">
     
     <!-- card one -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
           <div class="hero-content flex-col lg:flex-row ">
-            <img src="./Images/5.png" class=" rounded-lg shadow-2xl" />
+            <div class="w-full"><img class="w-full p-3" src="./Images/5.png" class=" rounded-lg " /></div>
             <div>
               <div class="flex gap-2 lg:gap-11 mb-4">
                   <div class="flex gap-2">
@@ -226,21 +247,22 @@
               </div>
               <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
               <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
-             <div class="flex">
-                <h1 class="text-[#FF4240] mt-5 mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex mt-5" src="./Images/Frame (6).svg">
-                  <h1 class=" mt-5"> Delivery Fee :Free</h1>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
+                  </div>
               </div>
           </div>
         </div>
       </div>
-
-      <!-- card two -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
+    <!-- card two -->
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
           <div class="hero-content flex-col lg:flex-row ">
-            <img src="./Images/6.png" class=" rounded-lg shadow-2xl" />
+            <div class="w-full"><img class="w-full p-3" src="./Images/6.png" class=" rounded-lg " /></div>
             <div>
-              <div class="flex gap-11 mb-4">
+              <div class="flex gap-2 lg:gap-11 mb-4">
                   <div class="flex gap-2">
                       <img src="./Images/Frame (3).svg">
                       <h3>5.0</h3>
@@ -256,55 +278,24 @@
 
 
               </div>
-              <h2 class="text-xl font-extrabold"> Football</h2>
-              <p class="mt-3">Immerse yourself in the world of personalized excellence as you design a football tailored to your unique preferences.</p>
-             <div class="flex ">
-                <h1 class="text-[#FF4240]  mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex" src="./Images/Frame (6).svg">
-                  <h1 class=""> Delivery Fee :Free</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- card three -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
-          <div class=" hero-content flex-col lg:flex-row ">
-            <img src="./Images/7.png" class=" rounded-lg shadow-2xl" />
-            <div>
-              <div class="flex gap-11 mb-4">
-                  <div class="flex gap-2">
-                      <img src="./Images/Frame (3).svg">
-                      <h3>5.0</h3>
+              <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
+              <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
                   </div>
-                  <div class="flex gap-2">
-                      <img src="./Images/Frame (4).svg">
-                      <h3>20</h3>
-                  </div>
-                  <div class="flex gap-2">
-                      <img src="./Images/Frame (5).svg">
-                      <h3>200</h3>
-                  </div>
-
-
               </div>
-              <h2 class="text-xl font-extrabold">SPECIAL EDITION CAP</h2>
-              <p> our Special Edition Cap seamlessly combines fashion and functionality</p>
-             <div class="flex">
-                <h1 class="text-[#FF4240] mt-5 mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex mt-5" src="./Images/Frame (6).svg">
-                  <h1 class="mt-5"> Delivery Fee :Free</h1>
-            </div>
           </div>
         </div>
       </div>
-      
-      <!-- card four -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
+    <!-- card three -->
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
           <div class="hero-content flex-col lg:flex-row ">
-            <img src="./Images/8.png" class=" rounded-lg shadow-2xl" />
-          <div>
-              <div class="flex gap-11 mb-4">
+            <div class="w-full"><img class="w-full p-3" src="./Images/7.png" class=" rounded-lg " /></div>
+            <div>
+              <div class="flex gap-2 lg:gap-11 mb-4">
                   <div class="flex gap-2">
                       <img src="./Images/Frame (3).svg">
                       <h3>5.0</h3>
@@ -320,23 +311,24 @@
 
 
               </div>
-              <h2 class="text-xl font-extrabold"> Premium Jersey</h2>
-              <p> Elevate your game with our exclusive line of high-quality jerseys. </p>
-             <div class="flex">
-                <h1 class="text-[#FF4240] mt-5 mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex mt-5" src="./Images/Frame (6).svg">
-                  <h1 class="mt-5"> Delivery Fee :Free</h1>
-            </div>
+              <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
+              <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
+                  </div>
+              </div>
           </div>
         </div>
       </div>
-      
-      <!-- card five -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
+    <!-- card four -->
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
           <div class="hero-content flex-col lg:flex-row ">
-            <img src="./Images/9.png" class=" rounded-lg shadow-2xl" />
+            <div class="w-full"><img class="w-full p-3" src="./Images/8.png" class=" rounded-lg " /></div>
             <div>
-              <div class="flex gap-11 mb-4">
+              <div class="flex gap-2 lg:gap-11 mb-4">
                   <div class="flex gap-2">
                       <img src="./Images/Frame (3).svg">
                       <h3>5.0</h3>
@@ -352,23 +344,24 @@
 
 
               </div>
-              <h2 class="text-xl font-extrabold">HOCKEY HELMET</h2>
-              <p>Hockey Helmet: Ensuring Player Safety and Performance.</p>
-             <div class="flex">
-                <h1 class="text-[#FF4240] mt-5 mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex mt-5" src="./Images/Frame (6).svg">
-                  <h1 class="mt-5"> Delivery Fee :Free</h1>
-            </div>
+              <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
+              <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
+                  </div>
+              </div>
           </div>
         </div>
       </div>
-      
-      <!-- card six -->
-      <div class="hero border-2 bg-base-200 mx-auto w-3/4 lg:w-full rounded-2xl">
-          <div class="hero-content flex-col lg:flex-row">
-            <img src="./Images/10.png" class=" rounded-lg shadow-2xl" />
+    <!-- card five -->
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
+          <div class="hero-content flex-col lg:flex-row ">
+            <div class="w-full"><img class="w-full p-3" src="./Images/9.png" class=" rounded-lg " /></div>
             <div>
-              <div class="flex gap-11 mb-4">
+              <div class="flex gap-2 lg:gap-11 mb-4">
                   <div class="flex gap-2">
                       <img src="./Images/Frame (3).svg">
                       <h3>5.0</h3>
@@ -384,22 +377,59 @@
 
 
               </div>
-              <h2 class="text-xl font-extrabold">Football</h2>
-              <p> Football is a dynamic and widely popular sport played and cherished by millions across the globe</p>
-             <div class="flex">
-                <h1 class="text-[#FF4240] mt-5 mr-20 text-xl font-bold">Price - $22.00</h1>    
-                  <img class="flex mt-5" src="./Images/Frame (6).svg">
-                  <h1 class="mt-5"> Delivery Fee :Free</h1>
-            </div>
+              <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
+              <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
+                  </div>
+              </div>
           </div>
         </div>
-    </div>
+      </div>
+    <!-- card six -->
+      <div class="hero border-2  mx-auto w-3/4 lg:w-full rounded-2xl">
+          <div class="hero-content flex-col lg:flex-row ">
+            <div class="w-full"><img class="w-full p-3" src="./Images/10.png" class=" rounded-lg " /></div>
+            <div>
+              <div class="flex gap-2 lg:gap-11 mb-4">
+                  <div class="flex gap-2">
+                      <img src="./Images/Frame (3).svg">
+                      <h3>5.0</h3>
+                  </div>
+                  <div class="flex gap-2">
+                      <img src="./Images/Frame (4).svg">
+                      <h3>20</h3>
+                  </div>
+                  <div class="flex gap-2">
+                      <img src="./Images/Frame (5).svg">
+                      <h3>200</h3>
+                  </div>
+
+
+              </div>
+              <h2 class="text-sm lg:text-xl font-extrabold"> Jacket</h2>
+              <p class="mt-3">this jacket combines style and functionality, ensuring comfort and durability on and off the ice </p>
+             <div class="flex flex-col lg:flex-row ">
+                <h1 class="text-[#FF4240] w-6/12 mt-5   lg: text-xl  font-bold">Price - $22.00</h1>    
+                  <div class="flex w-6/12  gap-1 ">
+                    <img class="flex  mt-5 " src="./Images/Frame (6).svg">
+                    <h1 class=" mt-5 w-full font-bold "> Free delivery. </h1>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      
       
 
       
         
   
-  </section>
+        </section>
         
 
         
@@ -413,9 +443,9 @@
         </section>
         
         <!-- accordian -->
-        <section class="container my-24 w-[87%] mx-auto border rounded-lg  grid grid-cols-1 lg:grid-cols-2 ">
-            <div class="   lg:pl-8 lg:py-8 ">
-                <img class=" pl-14 pt-10 w-[287px] h-[200px] lg:w-96 lg:h-96" src="./Images/11.png" alt="">
+        <section class="container my-24 w-[87%] mx-auto border rounded-lg  flex lg:flex-row flex-col items-center  justify-center ">
+            <div class=" p-6   ">
+                <img class=" " src="./Images/11.png" alt="">
            </div>
            
             <div class=" pt-10 lg:pr-24 lg:pt-10 lg:pl-6">
@@ -550,7 +580,7 @@
                               </div>
                               <textarea type="tel" rows="10" placeholder="Write your message" class="rounded-xl p-5 bg-[#13131808]"></textarea>
                           </label>
-                          <input type="submit" value="Send Message" class="btn w-full h-auto bg-[#FF4240] text-white px-6 py-4 border-0 text-xl font-semibold">
+                          <input type="submit" value="Send Message" class="btn w-full h-auto bg-[#FF4240] text-white px-6 py-4 border-0 font-bold text-xl ">
                       </div>
                   </form>
               </div>
@@ -574,7 +604,7 @@
         
     </main>
     <!-- footer -->
-    <footer class="footer grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 p-10 bg-neutral text-neutral-content">
+    <footer class=" footer grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 p-10 bg-neutral text-neutral-content">
       <div class=" col-span-2 lg:col-span-1 mt-3 lg:mt-16 mb-3 lg:mb-14 text-2xl">
         <header class="text-[#FFF] text-2xl lg:text-3xl font-extrabold mb-4">Get In Touch</header> 
         <p class="text-[1rem] mb-6">PowerPlay Sports is a leading provider of high-quality hockey equipment and accessories, 
